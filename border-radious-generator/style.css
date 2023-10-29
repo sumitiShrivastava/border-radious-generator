@@ -1,0 +1,54 @@
+body{
+    height: 110vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(211, 45, 98, 0.742);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 0 0 10px #333;
+    border-radius: 10px;
+}
+
+.main #output{
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(45deg,rgba(255, 0, 0, 0.395),rgba(229, 24, 205, 0.671));
+}
+
+.main #box{
+    height: 30px;
+    width: 300px;
+    background: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+input{
+    appearance:none;/* Set a specific slider handle width */
+    height: 22px;
+    width: 200px;
+    border-radius: 50px; /* Slider handle height */
+    background: #e34c83; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+#output img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+
